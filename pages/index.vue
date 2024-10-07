@@ -67,14 +67,14 @@
     <!-- Projet AP1 -->
     <div class="relative group cursor-pointer" @click="openModal({
         title: 'Projet AP1',
-        image: '../assets/images/ap1.png',
+        image: '@/assets/images/ap1.png',
         description: 'L\'objectif de ce projet était de créer un site web WordPress avec une base de données et de le personnaliser selon des critères d\'évaluation spécifiques.',
         tools: 'WordPress, PhpMyAdmin',
         skills: 'Développement Web, Gestion de Base de Données, Personnalisation CMS',
         documentation: 'https://example.com/documentation-projet-ap1',
         screenshots: [
-          '../assets/images/kaizen1.png',
-          '../assets/images/kaizen2.png'
+          '@/assets/images/kaizen1.png',
+          '@/assets/images/kaizen2.png'
         ],
         workMode: 'En équipe'
       })">
@@ -88,14 +88,14 @@
     <!-- Projet AP2 -->
     <div class="relative group cursor-pointer" @click="openModal({
         title: 'Projet AP2',
-        image: '../assets/images/github.png',
+        image: '@/assets/images/github.png',
         description: 'Ce projet, réalisé lors d\'un atelier professionnel au cours de ma première année de BTS SIO, consistait à reproduire un site web en utilisant le CMS de notre choix.',
         tools: 'Framer',
         skills: 'Design UI/UX, Utilisation de CMS, Collaboration en Équipe',
         documentation: 'https://example.com/documentation-projet-ap2',
         screenshots: [
-          '/images/github1.png',
-          '/images/github2.png'
+          '@/images/github1.png',
+          '@/images/github2.png'
         ],
         workMode: 'En équipe'
       })">
@@ -109,18 +109,18 @@
     <!-- Projet AP3 -->
     <div class="relative group cursor-pointer" @click="openModal({
         title: 'Projet AP3',
-        image: '../assets/images/cars.png',
+        image: '@/assets/images/cars.png',
         description: 'Ce site utilise PHP pour générer des pages dynamiques et interactives, permettant aux utilisateurs d\'interagir avec le contenu en temps réel.',
         tools: 'PHP, Bootstrap, PhpMyAdmin',
         skills: 'Programmation PHP, Design Responsive, Gestion de Base de Données',
         documentation: 'https://example.com/documentation-projet-ap3',
         screenshots: [
-          '../assets/images/cars.png',
-          '../assets/images/cars.png'
+          '@/assets/images/cars.png',
+          '@/assets/images/cars.png'
         ],
         workMode: 'Seul'
       })">
-      <img src="../assets/images/cars.png" alt="Projet AP3" class="w-full h-64 object-cover rounded-lg" />
+      <img src="@/assets/images/cars.png" alt="Projet AP3" class="w-full h-64 object-cover rounded-lg" />
       <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <p class="text-white text-sm">Site dynamique avec PHP et bases de données.</p>
         <p class="text-white text-sm mt-2">Technologies: PHP, Bootstrap, PhpMyAdmin</p>
@@ -130,18 +130,18 @@
     <!-- Projet AP4 -->
     <div class="relative group cursor-pointer" @click="openModal({
         title: 'Projet AP4',
-        image: '../assets/images/enzo-petit.png',
+        image: '@/assets/images/enzo-petit.png',
         description: 'Description du Projet AP4',
         tools: 'PHP, Tailwind CSS, PhpMyAdmin',
         skills: 'Développement Frontend, Styling avec Tailwind, Backend PHP',
         documentation: 'https://example.com/documentation-projet-ap4',
         screenshots: [
-          '/images/enzo-petit1.png',
-          '/images/enzo-petit2.png'
+          '@/images/enzo-petit1.png',
+          '@/images/enzo-petit2.png'
         ],
         workMode: 'En équipe'
       })">
-      <img src="../assets/images/ap2.png" alt="Projet AP4" class="w-full h-64 object-cover rounded-lg" />
+      <img src="@/assets/images/ap2.png" alt="Projet AP4" class="w-full h-64 object-cover rounded-lg" />
       <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <p class="text-white text-sm">Développement web avancé avec Tailwind CSS.</p>
         <p class="text-white text-sm mt-2">Technologies: PHP, Tailwind CSS, PhpMyAdmin</p>
@@ -151,18 +151,18 @@
     <!-- Projet AP5 -->
     <div class="relative group cursor-pointer" @click="openModal({
         title: 'Projet AP5',
-        image: '../assets/images/nouveau-projet.png',
+        image: '@/assets/images/nouveau-projet.png',
         description: 'Description du Projet AP5',
         tools: 'React, Redux',
         skills: 'Développement Frontend, Gestion d\'État avec Redux, Intégration API',
         documentation: 'https://example.com/documentation-projet-ap5',
         screenshots: [
-          '/images/nouveau-projet1.png',
-          '/images/nouveau-projet2.png'
+          '@/images/nouveau-projet1.png',
+          '@/images/nouveau-projet2.png'
         ],
         workMode: 'Seul'
       })">
-      <img src="../assets/images/ap5.png" alt="Projet AP5" class="w-full h-64 object-cover rounded-lg" />
+      <img src="@/assets/images/ap5.png" alt="Projet AP5" class="w-full h-64 object-cover rounded-lg" />
       <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <p class="text-white text-sm">à définir</p>
         <p class="text-white text-sm mt-2">à définir</p>
@@ -203,8 +203,8 @@
           
           
           <div class="flex justify-center space-x-4">
-            <img src="../assets/images/mancelles1.png" alt="Capture d'écran du site Les jolies Mancelles" class="w-1/2 rounded-lg shadow-md" />
-            <img src="../assets/images/mancelles2.png" alt="Page de produits Les jolies Mancelles" class="w-1/2 rounded-lg shadow-md" />
+            <img src="@/assets/images/mancelles1.png" alt="Capture d'écran du site Les jolies Mancelles" class="w-1/2 rounded-lg shadow-md" />
+            <img src="@/assets/images/mancelles2.png" alt="Page de produits Les jolies Mancelles" class="w-1/2 rounded-lg shadow-md" />
           </div>
         </div>
       </section>
@@ -271,7 +271,7 @@
       </button>
     </div>
     <div class="p-4">
-      <img src="../assets/images/ap1.png" alt="Titre du Projet" class="w-full h-64 object-cover rounded-lg mb-4" />
+      <img src="@/assets/images/ap1.png" alt="Titre du Projet" class="w-full h-64 object-cover rounded-lg mb-4" />
       <p class="mb-4"><strong>Description:</strong> L'objectif de ce projet était de créer un site web WordPress...</p>
       <p class="mb-4"><strong>Outils Utilisés:</strong> WordPress, PhpMyAdmin</p>
       <p class="mb-4"><strong>Compétences Travaillées:</strong> Développement Web, Gestion de Base de Données</p>
