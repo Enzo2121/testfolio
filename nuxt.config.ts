@@ -16,4 +16,7 @@ export default defineNuxtConfig({
   supabase: {
     redirect: false
   },
+  nitro: {
+    assetsInclude: ['**/*.PNG']
+  }
 })
