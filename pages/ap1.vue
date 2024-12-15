@@ -36,6 +36,17 @@
               Méthode Agile
             </p>
           </div>
+
+            
+            <a 
+              href="@/assets/images/TutorielScissEnzo.pdf" 
+              class="text-blue-500 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Télécharger le protocole d'utilisation du site (PDF)
+            </a>
+          
   
         <div class="mb-4">
           <h3 class="text-xl font-semibold mb-2">Images</h3>

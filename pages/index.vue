@@ -295,8 +295,8 @@ const selectedProject = ref<Project | null>(null);
 
 // Gestion de la Connexion
 const handleLogin = () => {
-  const validUsername = 'admin';
-  const validPassword = 'password123';
+  const validUsername = 'EcoleFolio';
+  const validPassword = 'BanaPort42?';
 
   if (username.value === validUsername && password.value === validPassword) {
     isLoggedIn.value = true;
